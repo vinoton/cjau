@@ -149,7 +149,7 @@
 			<?php echo $currency; ?>
 			<span class="button-top">
 				<span style="    font-size: 15px; margin-right: 10px; color: #5b5e60;">(11) 5563-8100</span>
-				<a href="#">A Empresa</a>
+				<a href="#" style="margin-right: 10px;">A Empresa</a>
 				<a href="#" style="margin-right: 10px;">Fale Conosco</a>
 			<?php if ($logged) { ?>
 				<a href="<?php echo $logout; ?>" style="margin-right: 10px;"><?php echo $text_logout; ?></a>
