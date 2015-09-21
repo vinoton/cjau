@@ -122,7 +122,11 @@
 <div class="toprow-1">
 	<a class="swipe-control" href="#"><i class="fa fa-align-justify"></i></a>
 </div>
-
+<style type="text/css">
+	header .button-top a:first-child {
+		border: 0px;
+	}
+</style>
 <header>
 	<div class="container">
 	<div class="row">
@@ -134,16 +138,25 @@
 			<h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
 			<?php } ?>
 		</div>
+		<div class="box-left">	
+			<div style="color: #3eb6de; float: left; text-transform: uppercase; font-weight: bold; font-size: 18px;">
+    			<div style="margin-left: 30px;; margin-top: 25px; text-align: center;">A qualidade é a nossa</div>
+    			<div style="margin-left: 30px;; margin-top: 30px; text-align: center;">maior ferramenta!</div>
+    		</div>
+		</div>
 		<div class="box-right">			
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
 			<span class="button-top">
+				<span style="    font-size: 15px; margin-right: 10px; color: #5b5e60;">(11) 5563-8100</span>
+				<a href="#">A Empresa</a>
+				<a href="#" style="margin-right: 10px;">Fale Conosco</a>
 			<?php if ($logged) { ?>
-				<a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>
-				<a href="<?php echo $order; ?>"><?php echo $text_order; ?></a>				
+				<a href="<?php echo $logout; ?>" style="margin-right: 10px;"><?php echo $text_logout; ?></a>
+				<a href="<?php echo $order; ?>" style="margin-right: 10px;"><?php echo $text_order; ?></a>				
 				<?php } else { ?>				
-				<a href="<?php echo $login; ?>"><?php echo $text_login1; ?></a>
-				<a href="<?php echo $register; ?>"><?php echo $text_register1; ?></a>
+				<a href="<?php echo $login; ?>" style="margin-right: 10px;">Entre</a>
+				<a href="<?php echo $register; ?>" style="margin-right: 10px;">Cadastre-se</a>
 				<?php } ?>
 			</span>
 			<div class="clear"></div>
