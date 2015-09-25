@@ -140,31 +140,29 @@
 		</div>
 		<div class="box-left">	
 			<div style="color: #3eb6de; float: left; text-transform: uppercase; font-weight: bold; font-size: 18px;">
-    			<div style="margin-left: 30px;; margin-top: 25px; text-align: center;">A qualidade é a nossa</div>
-    			<div style="margin-left: 30px;; margin-top: 30px; text-align: center;">maior ferramenta!</div>
+    			<div style="margin-left: 75px; margin-top: 30px; text-align: center;">A qualidade é a nossa</div>
+    			<div style="margin-left: 75px; margin-top: 25px; text-align: center;">maior ferramenta!</div>
     		</div>
 		</div>
 		<div class="box-right">			
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
 			<span class="button-top">
-				<span style="    font-size: 15px; margin-right: 10px; color: #5b5e60;">(11) 5563-8100</span>
-				<a href="#" style="margin-right: 10px;">A Empresa</a>
-				<a href="#" style="margin-right: 10px;">Fale Conosco</a>
+				<span style="    font-size: 14px; margin-right: 10px; color: #3eb6de;">Tel: (11) 5563-8100</span>
+				<a href="#" style="margin-right: 5px; margin-left: 5px; font-size: 14px;">A Empresa</a> | 
+				<a href="#" style="margin-right: 5px; margin-left: 5px; font-size: 14px;">Fale Conosco</a> | 
 			<?php if ($logged) { ?>
-				<a href="<?php echo $logout; ?>" style="margin-right: 10px;"><?php echo $text_logout; ?></a>
-				<a href="<?php echo $order; ?>" style="margin-right: 10px;"><?php echo $text_order; ?></a>				
+				<a href="<?php echo $logout; ?>" style="margin-right: 5px; margin-left: 5px; font-size: 14px;"><?php echo $text_logout; ?></a>
+				<a href="<?php echo $order; ?>" style="margin-right: 5px; margin-left: 5px; font-size: 14px;"><?php echo $text_order; ?></a>				
 				<?php } else { ?>				
-				<a href="<?php echo $login; ?>" style="margin-right: 10px;">Entre</a>
-				<a href="<?php echo $register; ?>" style="margin-right: 10px;">Cadastre-se</a>
+				<a href="<?php echo $login; ?>" style="margin-right: 5px; margin-left: 5px; font-size: 14px;">Entre</a> | 
+				<a href="<?php echo $register; ?>" style="margin-right: 5px; margin-left: 5px; font-size: 14px;">Cadastre-se</a>
 				<?php } ?>
 			</span>
 			<div class="clear"></div>
 			<?php echo $search; ?>
 			<ul class="soc-icon">
 				<li><a href="//www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-				<li><a href="//www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="//www.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
 			</ul>
 		</div>
 		</div>
